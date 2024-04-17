@@ -10,11 +10,12 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "redis", ">= 4.0.1"
+gem "clearance"
 
 group :development, :test do
   gem "debug", platforms: %i[mri]
 end
 
 group :development do
-  # gem "spring"
+  # gem 'spring'
 end
